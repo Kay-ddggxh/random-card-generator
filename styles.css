@@ -13,7 +13,7 @@ h1 {
   text-transform: uppercase;
 }
 
-button {
+.card-btn {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
   background-color: rgb(179, 145, 123);

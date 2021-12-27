@@ -110,3 +110,7 @@ function getCardImage() {
   document.getElementById("card-img").src = randomCardImg;
   document.getElementById("card-img").style.display = "block";
 }
+
+// To Do:
+
+// - sort out alt-text for image!
