@@ -55,6 +55,8 @@ let allCards = [
 let cardEl = document.getElementById("card-el");
 let suitEl = document.getElementById("suit-el");
 
+// functionality of "DRAW CARD" button - start:
+
 function drawCard() {
   generateCard();
   generateSuit();
@@ -72,8 +74,6 @@ function generateCard() {
     randomCard = "KING";
   }
   cardEl.innerHTML = randomCard;
-
-  return randomCard;
 }
 
 function generateSuit() {
@@ -100,9 +100,9 @@ function generateSuit() {
   } else {
     suitEl.style.color = "black";
   }
-
-  return suit; //using return here so I can use entire function as parameter
 }
+
+// functionality of "DRAW CARD" button - finish
 
 function getCardImage() {
   let randomCardImg = allCards[Math.floor(Math.random() * 52)];
