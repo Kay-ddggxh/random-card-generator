@@ -164,6 +164,214 @@ function getCardImage() {
 
   document.getElementById("card-img").src = randomCardImg;
   document.getElementById("card-img").style.display = "block";
+
+  function generateImgAltText() {
+    let imgAltText = "";
+    document.getElementById("card-img").alt = imgAltText;
+
+    switch (randomCardImg) {
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[1]:
+        imgAltText = cardNames[1];
+        break;
+      case allCards[3]:
+        imgAltText = cardNames[3];
+        break;
+      case allCards[4]:
+        imgAltText = cardNames[4];
+        break;
+      case allCards[5]:
+        imgAltText = cardNames[5];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+      case allCards[0]:
+        imgAltText = cardNames[0];
+        break;
+    }
+  }
+
+  generateImgAltText();
 }
 
 // To Do:
